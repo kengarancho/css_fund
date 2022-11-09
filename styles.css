@@ -1,22 +1,41 @@
 body {
-    margin: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif; 
     font-size: 21px;
+    margin: 0 auto;
 }
 
-#img {
+img {
     width: 300px;
+    border: 10px solid #fff;
+    border-radius: 50%;
 }
 
-h1, 
+header,
+section {
+    padding: 100px 0;
+}
+
+.name {
+    margin-top: 0;
+    /* background-color: #D7D7D7; */
+}
+
+.container {
+    width: 580px;
+    margin: 0 auto;
+}
+
+h1,
 h2 {
+    
     font-weight: 300;
 }
 
-h1, h2, h3 {
-    margin: 0px;
-    width: 100%;
+h1,
+h2
+{
+    margin-top: 0;
 }
 
 h1 {
@@ -25,71 +44,66 @@ h1 {
 
 h2 {
     font-size: 42px;
-
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 30px;
 }
 
 h3 {
+    margin: 0 0;
     font-size: 36px;
 }
 
-.small-text {
+.p-text {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 16px;
-    margin-top: 0px;
+
 }
 
-.title-h1 {
+.h1-span {
     font-size: 80px;
 }
 
-.title-h2 {
+.h2-span {
     font-size: 60px;
 }
 
-.title-h1, .title-h2 {
-    font-weight: 900;
+.h1-span, .h2-span {
     display: block;
+    font-weight: bold;
+    color: #99D930;
 }
 
-#article-cont {
-    color: #99d930;
-    font-weight: 900;
+.continue-reading-a,
+.article-name,
+time {
+    color: #99D930;
+    font-weight: bold;
 }
 
-#article-cont:hover, #article-cont:focus {
+.continue-reading-a:hover, .continue-reading-a:focus {
     color: #131313;
 }
 
-.content {
-    padding: 100px 0px;
-}
-
-.content-container1, .content-container3 {
+.inverse {
     background-color: #252525;
-    color: #FFF;
-    
-}
-
-.content-container2 {
-    background-color: #FFF;
-    color: #252525;
-}
-
-h3 {
-    margin-top: 25px;
+    color: #fff;
 }
 
 .btn {
-    margin-top: 20px;
     background-color: #99d930;
     color: #252525;
-    font-family: inherit;
-    font-weight: 900;
     display: inline-block;
-    padding: 20px 40px;
+    margin-top: 20px;
+    padding: 10px 30px;
     text-decoration: none;
+    font-weight: 900;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     background-color: #252525;
-    color: #FFF;
+    color: #fff;
 }
+
